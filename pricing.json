@@ -1,0 +1,15 @@
+{
+  "comment": "モデル ID は前方一致で上から順に解決される。単価は USD / 1M tokens。",
+  "models": [
+    { "match": "claude-fable-5", "input": 10.0, "output": 50.0 },
+    { "match": "claude-mythos-5", "input": 10.0, "output": 50.0 },
+    { "match": "claude-opus-4", "input": 5.0, "output": 25.0 },
+    { "match": "claude-sonnet-4-6", "input": 3.0, "output": 15.0 },
+    { "match": "claude-sonnet-4-5", "input": 3.0, "output": 15.0 },
+    { "match": "claude-haiku-4-5", "input": 1.0, "output": 5.0 },
+    { "match": "<synthetic>", "input": 0, "output": 0 }
+  ],
+  "cacheWrite5mMultiplier": 1.25,
+  "cacheWrite1hMultiplier": 2.0,
+  "cacheReadMultiplier": 0.1
+}
